@@ -32,31 +32,31 @@ void createGroups(){ // Method to display groups, each containing 4 countries
   // Fill array with Country objects and their corresponding accent color and file path, using addCountry() method defined in Group class
   // Group A 
   groups[0] = new Group("GROUP A", startX, startY, groupWidth, groupHeight);
-  groups[0].addCountry(0, new Country("RUSSIA", "Russia.png", groupAColor));
-  groups[0].addCountry(1, new Country("SAUDI ARABIA", "SaudiArabia.png", groupAColor));
-  groups[0].addCountry(2, new Country("EGYPT", "Egypt.png", groupAColor));
-  groups[0].addCountry(3, new Country("URUGUAY", "Uruguay.png", groupAColor));
+  groups[0].addCountry(0, new Country("RUSSIA", "images/Russia.png", groupAColor));
+  groups[0].addCountry(1, new Country("SAUDI ARABIA", "images/SaudiArabia.png", groupAColor));
+  groups[0].addCountry(2, new Country("EGYPT", "images/Egypt.png", groupAColor));
+  groups[0].addCountry(3, new Country("URUGUAY", "images/Uruguay.png", groupAColor));
   
   // Group B 
   groups[1] = new Group("GROUP B", startX, startY + groupHeight + spacing, groupWidth, groupHeight);
-  groups[1].addCountry(0, new Country("PORTUGAL", "Portugal.png", groupBColor)); // Highlighted
-  groups[1].addCountry(1, new Country("SPAIN", "Spain.png", groupBColor));
-  groups[1].addCountry(2, new Country("MOROCCO", "Morocco.png", groupBColor));
-  groups[1].addCountry(3, new Country("IRAN", "Iran.png", groupBColor));
+  groups[1].addCountry(0, new Country("PORTUGAL", "images/Portugal.png", groupBColor)); // Highlighted
+  groups[1].addCountry(1, new Country("SPAIN", "images/Spain.png", groupBColor));
+  groups[1].addCountry(2, new Country("MOROCCO", "images/Morocco.png", groupBColor));
+  groups[1].addCountry(3, new Country("IRAN", "images/Iran.png", groupBColor));
   
   // Group C
   groups[2] = new Group("GROUP C", startX + groupWidth + spacing, startY, groupWidth, groupHeight);
-  groups[2].addCountry(0, new Country("FRANCE", "France.png", groupCColor));
-  groups[2].addCountry(1, new Country("AUSTRALIA", "Australia.png", groupCColor));
-  groups[2].addCountry(2, new Country("PERU", "Peru.png", groupCColor));
-  groups[2].addCountry(3, new Country("DENMARK", "Denmark.png", groupCColor));
+  groups[2].addCountry(0, new Country("FRANCE", "images/France.png", groupCColor));
+  groups[2].addCountry(1, new Country("AUSTRALIA", "images/Australia.png", groupCColor));
+  groups[2].addCountry(2, new Country("PERU", "images/Peru.png", groupCColor));
+  groups[2].addCountry(3, new Country("DENMARK", "images/Denmark.png", groupCColor));
   
   // Group D
   groups[3] = new Group("GROUP D", startX + groupWidth + spacing, startY + groupHeight + spacing, groupWidth, groupHeight);
-  groups[3].addCountry(0, new Country("ARGENTINA", "Argentina.png", groupDColor)); 
-  groups[3].addCountry(1, new Country("ICELAND", "Iceland.png", groupDColor));
-  groups[3].addCountry(2, new Country("CROATIA", "Croatia.png", groupDColor));
-  groups[3].addCountry(3, new Country("NIGERIA", "Nigeria.png", groupDColor));
+  groups[3].addCountry(0, new Country("ARGENTINA", "images/Argentina.png", groupDColor)); 
+  groups[3].addCountry(1, new Country("ICELAND", "images/Iceland.png", groupDColor));
+  groups[3].addCountry(2, new Country("CROATIA", "images/Croatia.png", groupDColor));
+  groups[3].addCountry(3, new Country("NIGERIA", "images/Nigeria.png", groupDColor));
 }
 
 // Display groups using Group.display() function, making sure to use the right color 
